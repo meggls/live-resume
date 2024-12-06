@@ -22,6 +22,12 @@ li {
     margin-left: 2em;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 .left p {
     margin-top: 0.5em;
 }
@@ -59,6 +65,20 @@ hr {
     background-color: white;
 }
 
+.contactContainer {
+    display: flex;
+}
+
+.contactContainer #contactPic {
+    flex: 1;
+    align: right;
+    padding: 2vh;
+}
+
+.contactContainer .contactInfo {
+    flex: 2;
+}
+
 .infoContainer {
     display: flex;
 }
@@ -71,7 +91,6 @@ hr {
 }
 
 .infoContainer .mainInfo {
-    /* background-color: darksalmon; */
     flex: 2;
     margin: 0vh 4vw 1vh 2vw;
 }
