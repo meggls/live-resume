@@ -26,7 +26,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
 .left p {
     margin-top: 0.5em;
@@ -71,7 +71,6 @@ hr {
 
 .contactContainer #contactPic {
     flex: 1;
-    align: right;
     padding: 2vh;
 }
 
@@ -87,7 +86,7 @@ hr {
     background-color: lightgrey;
     flex: 1;
     margin: 0vh 2vw 0vh 4vw;
-    padding: 0vh 1.5vw 1vh 1.5vw;
+    padding: 0.5em 1.5vw 1vh 1.5vw;
 }
 
 .infoContainer .mainInfo {
