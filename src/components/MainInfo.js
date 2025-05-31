@@ -1,7 +1,7 @@
 function MainInfo() {
     return (
-        <div class="mainInfo">
-                <div id="workExperience" class="right">
+        <div className="mainInfo">
+                <div id="workExperience" className="right">
                     <h2>Work Experience</h2>
                     <h3>Freelance Instructor, Cozumel | <em>Oct 2022 - Present</em></h3>
                     <ul>
@@ -25,7 +25,7 @@ function MainInfo() {
                     <h3>Data & Backend Software Engineer | <em>2015 - 2021</em></h3>
                     <h3>Restaurant Server, Bartender, Assistant Manager | <em>2008 - 2015</em></h3>
                 </div>
-                <div id="training" class="right">
+                <div id="training" className="right">
                     <h2>Pro/Tec Level Training</h2>
                     <h3>TDI Adv Nitrox & Deco Proc | <em>Sep 2024</em></h3>
                     <p>Go Dive Mex</p>

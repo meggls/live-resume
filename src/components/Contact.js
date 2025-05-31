@@ -2,11 +2,11 @@ import headshot from '../head_circle.jpg';
 
 function Contact() {
     return (
-        <div class="contactContainer">
+        <div className="contactContainer">
             <div id="contactPic">
                 <img src={headshot} alt="My headshot" width="200em" height="200em" />
             </div>
-            <div id="contactInfo" class="contactInfo">
+            <div id="contactInfo" className="contactInfo">
                 <h1>Megan Juell</h1>
                 <h2>SCUBA Instructor</h2>
                 <p>meganljuell@gmail.com</p>
